@@ -11,6 +11,8 @@
 		0761679E297A684800EC940A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0761679D297A684800EC940A /* ContentView.swift */; };
 		076167A0297A684900EC940A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0761679F297A684900EC940A /* Assets.xcassets */; };
 		076167A3297A684900EC940A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076167A2297A684900EC940A /* Preview Assets.xcassets */; };
+		076167AA297A840900EC940A /* DecimalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076167A9297A840900EC940A /* DecimalSlider.swift */; };
+		076167AC297A857700EC940A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076167AB297A857700EC940A /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0761679D297A684800EC940A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0761679F297A684900EC940A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076167A2297A684900EC940A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		076167A9297A840900EC940A /* DecimalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalSlider.swift; sourceTree = "<group>"; };
+		076167AB297A857700EC940A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0761679B297A684800EC940A /* SliderGameAppApp.swift */,
 				0761679D297A684800EC940A /* ContentView.swift */,
+				076167A9297A840900EC940A /* DecimalSlider.swift */,
+				076167AB297A857700EC940A /* SliderView.swift */,
 				0761679F297A684900EC940A /* Assets.xcassets */,
 				076167A1297A684900EC940A /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0761679E297A684800EC940A /* ContentView.swift in Sources */,
+				076167AC297A857700EC940A /* SliderView.swift in Sources */,
+				076167AA297A840900EC940A /* DecimalSlider.swift in Sources */,
 				0761679C297A684800EC940A /* SliderGameAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
