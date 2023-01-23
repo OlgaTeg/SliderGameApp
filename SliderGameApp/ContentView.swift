@@ -14,18 +14,16 @@ struct ContentView: View {
     @State private var showAlert = false
     
     var body: some View {
-        VStack {
+        VStack (spacing: 20){
             Spacer()
             
             Text("Подвиньте слайдер как можно ближе к: \(targetValue)")
             
             SliderView(
                 value: $currentValue,
-                randomValue: targetValue,
                 alpha: computeScore(),
                 color: .red
             )
-            .padding(.top, 20)
             
             Button("Проверь меня!") {
                 showAlert.toggle()
@@ -34,7 +32,6 @@ struct ContentView: View {
                 Alert(title: Text("Your score"),
                       message: Text("\(computeScore())"))
             }
-            .padding(.top, 20)
             
             Button("Начать заново") {
                 withAnimation {
@@ -42,7 +39,6 @@ struct ContentView: View {
                     targetValue = Int.random(in: 1...100)
                 }
             }
-            .padding(.top, 20)
             
             Spacer()
         }
